@@ -23,10 +23,6 @@ function selectCategory(category: QuizCategory) {
 }
 
 async function startQuiz(categoryId: string, subcategoryId: string) {
-  console.log('categoryId:', categoryId);
-  console.log('subcategoryId:', subcategoryId);
-  console.log('router.push path:', `/quiz/${categoryId}/${subcategoryId}`);
-  
   quizStore.startQuiz(categoryId, subcategoryId);
   await router.push(`/quiz/${categoryId}/${subcategoryId}`);
   categoryDialog.value = false;
