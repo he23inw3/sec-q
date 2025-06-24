@@ -8,7 +8,7 @@
         <router-link to="/">
           <v-img
             class="mx-2"
-            src="/public/icon.svg"
+            src="/icon.svg"
             max-height="100"
             max-width="100"
             :aspect-ratio="1/1"
