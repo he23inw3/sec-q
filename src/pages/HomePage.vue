@@ -22,9 +22,9 @@ function selectCategory(category: QuizCategory) {
   categoryDialog.value = true;
 }
 
-function startQuiz(categoryId: string, subcategoryId: string) {
+async function startQuiz(categoryId: string, subcategoryId: string) {
   quizStore.startQuiz(categoryId, subcategoryId);
-  router.push(`/quiz/${categoryId}/${subcategoryId}`);
+  await router.push(`/quiz/${categoryId}/${subcategoryId}`);
   categoryDialog.value = false;
 }
 

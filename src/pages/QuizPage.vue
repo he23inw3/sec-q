@@ -44,25 +44,25 @@ function handleAnswer(selectedOption: number) {
   quizStore.answerQuestion(selectedOption);
 }
 
-function handleNext() {
+async function handleNext() {
   const completed = quizStore.nextQuestion();
   
   if (completed && isQuizCompleted.value) {
-    router.push(`/result/${currentCategory.value}/${currentSubcategory.value}`);
+    await router.push(`/result/${currentCategory.value}/${currentSubcategory.value}`);
   }
 }
 
-function handleComplete() {
+async function handleComplete() {
   if (isQuizCompleted.value && quizStore.result) {
-    router.push(`/result/${currentCategory.value}/${currentSubcategory.value}`);
+    await router.push(`/result/${currentCategory.value}/${currentSubcategory.value}`);
   } else {
     console.warn('Quiz completion attempted but quiz is not actually completed');
   }
 }
 
-function goToHome() {
+async function goToHome() {
   quizStore.resetQuiz();
-  router.push('/');
+  await router.push('/');
 }
 </script>
 

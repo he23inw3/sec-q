@@ -117,14 +117,14 @@ function handleReviewAnswer(questionId: number, selectedOption: number) {
   }
 }
 
-function goToHome() {
+async function goToHome() {
   quizStore.resetQuiz();
-  router.push('/');
+  await router.push('/');
 }
 
-function retryQuiz() {
+async function retryQuiz() {
   quizStore.startQuiz(currentCategory.value, currentSubcategory.value);
-  router.push(`/quiz/${currentCategory.value}/${currentSubcategory.value}`);
+  await router.push(`/quiz/${currentCategory.value}/${currentSubcategory.value}`);
 }
 </script>
 
