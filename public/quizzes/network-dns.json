@@ -1,0 +1,66 @@
+{
+  "category": "network",
+  "subcategory": "dns",
+  "questions": [
+    {
+      "id": 1,
+      "question": "DNSの正式名称は何ですか？",
+      "options": [
+        "Domain Name System",
+        "Dynamic Network Service",
+        "Distributed Name Server",
+        "Digital Network Security"
+      ],
+      "correctAnswer": 0,
+      "explanation": "DNSはDomain Name Systemの略で、ドメイン名をIPアドレスに変換するシステムです。"
+    },
+    {
+      "id": 2,
+      "question": "DNSレコードのうち、IPv4アドレスを指定するレコードタイプはどれですか？",
+      "options": [
+        "AAAA",
+        "CNAME",
+        "A",
+        "MX"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Aレコードは、ドメイン名をIPv4アドレスにマッピングするために使用されます。"
+    },
+    {
+      "id": 3,
+      "question": "DNSの階層構造において、最上位に位置するのは何ですか？",
+      "options": [
+        "セカンドレベルドメイン",
+        "サブドメイン",
+        "ルートドメイン",
+        "トップレベルドメイン"
+      ],
+      "correctAnswer": 2,
+      "explanation": "DNSの階層構造では、ルートドメイン（.）が最上位に位置し、その下にトップレベルドメイン（.com、.jpなど）があります。"
+    },
+    {
+      "id": 4,
+      "question": "DNSキャッシュの主な目的は何ですか？",
+      "options": [
+        "セキュリティの向上",
+        "応答速度の向上",
+        "データの暗号化",
+        "負荷分散"
+      ],
+      "correctAnswer": 1,
+      "explanation": "DNSキャッシュは、一度解決したドメイン名の情報を一時的に保存することで、同じクエリに対する応答速度を向上させます。"
+    },
+    {
+      "id": 5,
+      "question": "逆引きDNSで使用される特別なドメインは何ですか？",
+      "options": [
+        "reverse.arpa",
+        "in-addr.arpa",
+        "ptr.arpa",
+        "lookup.arpa"
+      ],
+      "correctAnswer": 1,
+      "explanation": "逆引きDNS（IPアドレスからドメイン名を解決）では、in-addr.arpaドメインが使用されます。"
+    }
+  ]
+}

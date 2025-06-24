@@ -1,0 +1,18 @@
+{
+  "category": "database",
+  "subcategory": "sql",
+  "questions": [
+    {
+      "id": 1,
+      "question": "SQLにおけるINNER JOINの主な目的は何ですか？",
+      "options": [
+        "2つのテーブルの共通の行を結合する",
+        "最初のテーブルのすべての行を返す",
+        "2番目のテーブルのすべての行を返す",
+        "テーブル内の重複を削除する"
+      ],
+      "correctAnswer": 0,
+      "explanation": "INNER JOINは、2つのテーブルの間で一致する値を持つ行のみを結合します。これは、両方のテーブルに存在するデータのみを取得したい場合に使用します。"
+    }
+  ]
+}

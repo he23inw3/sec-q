@@ -1,0 +1,66 @@
+{
+  "category": "security",
+  "subcategory": "encryption",
+  "questions": [
+    {
+      "id": 1,
+      "question": "AESの正式名称は何ですか？",
+      "options": [
+        "Advanced Encryption Standard",
+        "Asymmetric Encryption System",
+        "Automated Encryption Service",
+        "Applied Encryption Security"
+      ],
+      "correctAnswer": 0,
+      "explanation": "AESはAdvanced Encryption Standardの略で、現在広く使用されている対称鍵暗号化標準です。"
+    },
+    {
+      "id": 2,
+      "question": "公開鍵暗号方式の特徴として正しいものはどれですか？",
+      "options": [
+        "暗号化と復号化に同じ鍵を使用する",
+        "暗号化と復号化に異なる鍵を使用する",
+        "鍵の配布が不要",
+        "対称鍵暗号より高速"
+      ],
+      "correctAnswer": 1,
+      "explanation": "公開鍵暗号方式では、暗号化に公開鍵、復号化に秘密鍵という異なる鍵のペアを使用します。"
+    },
+    {
+      "id": 3,
+      "question": "ハッシュ関数の特徴として正しくないものはどれですか？",
+      "options": [
+        "一方向性がある",
+        "固定長の出力を生成する",
+        "元のデータを復元できる",
+        "衝突耐性がある"
+      ],
+      "correctAnswer": 2,
+      "explanation": "ハッシュ関数は一方向性を持つため、ハッシュ値から元のデータを復元することはできません。"
+    },
+    {
+      "id": 4,
+      "question": "デジタル署名の主な目的は何ですか？",
+      "options": [
+        "データの暗号化",
+        "データの圧縮",
+        "データの完全性と認証",
+        "データの高速化"
+      ],
+      "correctAnswer": 2,
+      "explanation": "デジタル署名は、データの完全性（改ざんされていないこと）と認証（送信者の身元確認）を提供します。"
+    },
+    {
+      "id": 5,
+      "question": "SSL/TLSで使用される暗号化方式の組み合わせとして正しいものはどれですか？",
+      "options": [
+        "対称鍵暗号のみ",
+        "公開鍵暗号のみ",
+        "対称鍵暗号と公開鍵暗号の組み合わせ",
+        "ハッシュ関数のみ"
+      ],
+      "correctAnswer": 2,
+      "explanation": "SSL/TLSでは、鍵交換に公開鍵暗号、実際のデータ暗号化に対称鍵暗号を使用するハイブリッド方式を採用しています。"
+    }
+  ]
+}

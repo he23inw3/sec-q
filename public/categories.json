@@ -1,0 +1,114 @@
+{
+  "categories": [
+    {
+      "id": "threats",
+      "name": "情報セキュリティ10大脅威 2025",
+      "description": "情報セキュリティ10大脅威に関する知識",
+      "icon": "mdi-account",
+      "color": "red",
+      "subcategories": [
+        {
+          "id": "individual",
+          "name": "個人",
+          "description": "個人に対する情報セキュリティの脅威について",
+          "icon": "mdi-account-alert-outline",
+          "color": "red-lighten-1"
+        },
+        {
+          "id": "organization",
+          "name": "法人",
+          "description": "法人に対する情報セキュリティの脅威について",
+          "icon": "mdi-domain",
+          "color": "red-lighten-2"
+        }
+      ]
+    },
+    {
+      "id": "network",
+      "name": "ネットワーク",
+      "description": "ネットワーク技術全般に関する知識",
+      "icon": "mdi-lan",
+      "color": "indigo",
+      "subcategories": [
+        {
+          "id": "dns",
+          "name": "DNS",
+          "description": "ドメインネームシステムの仕組みと設定",
+          "icon": "mdi-dns",
+          "color": "indigo-lighten-1"
+        },
+        {
+          "id": "tcp-ip",
+          "name": "TCP/IP",
+          "description": "TCP/IPプロトコルスタックの理解",
+          "icon": "mdi-network",
+          "color": "indigo-lighten-2"
+        }
+      ]
+    },
+    {
+      "id": "security",
+      "name": "セキュリティ",
+      "description": "情報セキュリティ全般に関する知識",
+      "icon": "mdi-shield-lock",
+      "color": "deep-purple",
+      "subcategories": [
+        {
+          "id": "encryption",
+          "name": "暗号化",
+          "description": "暗号化技術と実装方法",
+          "icon": "mdi-key",
+          "color": "deep-purple-lighten-1"
+        }
+      ]
+    },
+    {
+      "id": "database",
+      "name": "データベース",
+      "description": "データベース技術全般に関する知識",
+      "icon": "mdi-database",
+      "color": "teal",
+      "subcategories": [
+        {
+          "id": "sql",
+          "name": "SQL",
+          "description": "SQL言語の基礎と応用",
+          "icon": "mdi-database-search",
+          "color": "teal-lighten-1"
+        }
+      ]
+    },
+    {
+      "id": "programming",
+      "name": "プログラミング",
+      "description": "プログラミング技術全般に関する知識",
+      "icon": "mdi-code-tags",
+      "color": "blue",
+      "subcategories": [
+        {
+          "id": "secure",
+          "name": "セキュアプログラミング",
+          "description": "セキュアプログラミングの基礎と応用",
+          "icon": "mdi-file-code",
+          "color": "blue-lighten-1"
+        }
+      ]
+    },
+    {
+      "id": "system-design",
+      "name": "システム設計",
+      "description": "システム設計とアーキテクチャに関する知識",
+      "icon": "mdi-sitemap",
+      "color": "green",
+      "subcategories": [
+        {
+          "id": "architecture",
+          "name": "アーキテクチャ",
+          "description": "システムアーキテクチャの設計原則",
+          "icon": "mdi-city",
+          "color": "green-lighten-1"
+        }
+      ]
+    }
+  ]
+}
